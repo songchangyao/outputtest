@@ -81,11 +81,3 @@ m1 <- lm(weight ~ group)
 m2 <- lm(weight ~ group - 1)
 summary(m2)
 screenreg(list(m1, m2))            ##screenreg
-
-
-
-
-
-
-
-
